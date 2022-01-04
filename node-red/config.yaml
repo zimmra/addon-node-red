@@ -24,11 +24,14 @@ hassio_api: true
 hassio_role: manager
 homeassistant_api: true
 host_network: true
+host_dbus: true
+usb: true
 auth_api: true
 uart: true
 gpio: true
 privileged:
   - SYS_RAWIO
+  - NET_ADMIN
 devices:
   - /dev/mem
 apparmor: false
