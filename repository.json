@@ -1,0 +1,5 @@
+{
+  "name": "Home Assistant Community Add-on for Node RED (with D-Bus)",
+  "url": "https://github.com/zimmra/addon-node-red",
+  "maintainer": "Zimmra"
+}
